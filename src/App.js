@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
+import NavBar from './Components/Navbar.js'
+
 /*Components for Spanish and English*/
 import Inicio from './Views/Inicio'
 import Home from './Views/Home'
@@ -14,8 +16,8 @@ import Events from './Views/Events'
 import Espacios from './Views/Espacios'
 import Spaces from './Views/Spaces'
 
-import Contacto from './Views/Espacios'
-import Contact from './Views/Spaces'
+import Contacto from './Views/Contacto'
+import Contact from './Views/Contact'
 
 function App() {
 
@@ -25,9 +27,12 @@ function App() {
   return (
     <Router>
       <div>
+
+        <NavBar/>
+
         <Switch>
-          <Route path='/Inicio' exact component={Inicio} />
-          <Route path='/en/Home' exact component={Home} />
+          <Route path='/' exact component={Inicio} />
+          <Route path='/en/' exact component={Home} />
 
           <Route path='/Nosotros' component={Nosotros} />
           <Route path='/en/AboutUs' component={AboutUs} />
