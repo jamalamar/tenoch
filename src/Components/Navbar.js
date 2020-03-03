@@ -31,7 +31,7 @@ render() {
   return (
       <MDBNavbar color="white" light scrolling transparent expand="md" fixed="top">
         <MDBNavbarBrand className="waves-effect waves-light">
-          <MDBNavLink to="/"><img src='Assets/SaintsNavbarB.png' fluid/></MDBNavLink>
+          <MDBNavLink to="/"><h5>Casa Tenoch</h5></MDBNavLink>
         </MDBNavbarBrand>
         <MDBNavbarToggler color="dark" onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse1" isOpen={this.state.isOpen} navbar>
