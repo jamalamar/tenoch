@@ -31,7 +31,12 @@ render() {
   return (
       <MDBNavbar color="white" light scrolling transparent expand="md" fixed="top">
         <MDBNavbarBrand className="waves-effect waves-light">
-          <MDBNavLink to="/"><h5 className="font-weight-normal text-dark">Casa Tenoch</h5></MDBNavLink>
+          <MDBNavLink to="/">
+            <h5 className="font-weight-normal text-dark font-weight-bold">
+              Tenoch
+              <span className='indigo-text font-weight-bold'>INN</span>
+            </h5>
+          </MDBNavLink>
         </MDBNavbarBrand>
         <MDBNavbarToggler color="dark" onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse1" isOpen={this.state.isOpen} navbar>
