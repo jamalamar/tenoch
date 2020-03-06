@@ -3,9 +3,9 @@ import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, M
 
 const Espacios = () => {
   return (
-  	<div className="pt-5">
+  	<div className="pt-5" style={style.bg}>
     <div className="w-responsive mx-auto pt-5">
-      <MDBCardBody>
+      <MDBCardBody >
         <MDBRow>
           <MDBCol md="12">
             <MDBCard reverse>
@@ -184,8 +184,19 @@ const Espacios = () => {
         <hr className="mb-5 mt-4" />
       </MDBCardBody>
     </div>
+
     </div>
   );
 }
+
+const style = {
+	bg: {
+	  backgroundImage: 'url("https://mdbootstrap.com/img/Photos/Others/images/62.jpg")',
+	  height: '100%',
+	  backgroundAttachment: 'fixed',
+	  backgroundSize: 'cover',
+	}
+}
+
 
 export default Espacios;
