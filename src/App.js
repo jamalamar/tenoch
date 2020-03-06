@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import NavBar from './Components/Navbar.js'
+import Footer from './Components/Footer.js'
 
 /*Components for Spanish and English*/
 import Inicio from './Views/Inicio'
@@ -46,6 +47,8 @@ function App() {
           <Route path='/Contacto' component={Contacto} />
           <Route path='/en/Contact' component={Contact} />
         </Switch>
+
+        <Footer/>
       </div>
     </Router>
   );
