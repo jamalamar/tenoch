@@ -22,9 +22,9 @@ const Espacios = () => {
 
             <MDBCard className='mx-5' style={{'marginTop': '-3rem'}}>
               <MDBCardBody className="text-center">
-                <h2 className="font-weight-bold">
-                  Espacio 1
-                </h2>
+                <h4 className="font-weight-bold">
+                  SALÓN TEOTIHUACÁN
+                </h4>
               </MDBCardBody>
             </MDBCard>
             <MDBContainer className="mt-5">
@@ -66,9 +66,9 @@ const Espacios = () => {
 
             <MDBCard className='mx-5' style={{'marginTop': '-3rem'}}>
               <MDBCardBody className="text-center">
-                <h2 className="font-weight-bold">
-                  Espacio 2
-                </h2>
+                <h4 className="font-weight-bold">
+                  SALA COBA
+                </h4>
               </MDBCardBody>
             </MDBCard>
             <MDBContainer className="mt-5">
@@ -110,9 +110,9 @@ const Espacios = () => {
 
             <MDBCard className='mx-5' style={{'marginTop': '-3rem'}}>
               <MDBCardBody className="text-center">
-                <h2 className="font-weight-bold">
-                  Espacio 3
-                </h2>
+                <h4 className="font-weight-bold">
+                  SALA MONTEALBAN
+                </h4>
               </MDBCardBody>
             </MDBCard>
             <MDBContainer className="mt-5">
@@ -154,9 +154,9 @@ const Espacios = () => {
 
             <MDBCard className='mx-5' style={{'marginTop': '-3rem'}}>
               <MDBCardBody className="text-center">
-                <h2 className="font-weight-bold">
-                  Espacio 4
-                </h2>
+                <h4 className="font-weight-bold">
+                  AULA BONAMPAK
+                </h4>
               </MDBCardBody>
             </MDBCard>
             <MDBContainer className="mt-5">
@@ -191,10 +191,11 @@ const Espacios = () => {
 
 const style = {
 	bg: {
-	  backgroundImage: 'url("https://mdbootstrap.com/img/Photos/Others/images/62.jpg")',
+	  backgroundImage: 'url("../Assets/BackgroundWhite.jpg")',
 	  height: '100%',
 	  backgroundAttachment: 'fixed',
 	  backgroundSize: 'cover',
+
 	}
 }
 
