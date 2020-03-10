@@ -6,7 +6,20 @@ const Espacios = () => {
   	<div className="pt-5" style={style.bg}>
     <div className="w-responsive mx-auto pt-5">
       <MDBCardBody >
-        <MDBRow>
+
+      <h1 className="font-weight-bold text-center my-5">
+          Conoce Nuestros Espacios
+        </h1>
+        <p className="text-center w-responsive mx-auto mb-5">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.
+        </p>
+
+        <hr className="mb-5 mt-5" />
+
+       <MDBRow>
           <MDBCol md="12">
             <MDBCard reverse>
               <MDBView hover cascade waves>
@@ -20,9 +33,9 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5' style={{'marginTop': '-3rem'}}>
+            <MDBCard className='w-responsive mx-auto' style={{'marginTop': '-1.5rem'}}>
               <MDBCardBody className="text-center">
-                <h4 className="font-weight-bold">
+                <h4 className="font-weight-bold h2-responsive">
                   SALÓN TEOTIHUACÁN
                 </h4>
               </MDBCardBody>
@@ -49,7 +62,9 @@ const Espacios = () => {
             </MDBContainer>
           </MDBCol>
         </MDBRow>
+        
         <hr className="mb-5 mt-4" />
+        
         <MDBRow>
           <MDBCol md="12">
             <MDBCard reverse>
@@ -64,10 +79,10 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5' style={{'marginTop': '-3rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto' style={{'marginTop': '-1.5rem'}}>
               <MDBCardBody className="text-center">
-                <h4 className="font-weight-bold">
-                  SALA COBA
+                <h4 className="font-weight-bold h2-responsive">
+                  SALÓN CHICHEN ITZÁ
                 </h4>
               </MDBCardBody>
             </MDBCard>
@@ -93,7 +108,9 @@ const Espacios = () => {
             </MDBContainer>
           </MDBCol>
         </MDBRow>
+        
         <hr className="mb-5 mt-4" />
+        
         <MDBRow>
           <MDBCol md="12">
             <MDBCard reverse>
@@ -108,10 +125,10 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5' style={{'marginTop': '-3rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto' style={{'marginTop': '-1.5rem'}}>
               <MDBCardBody className="text-center">
-                <h4 className="font-weight-bold">
-                  SALA MONTEALBAN
+                <h4 className="font-weight-bold h2-responsive">
+                  SALA COBÁ
                 </h4>
               </MDBCardBody>
             </MDBCard>
@@ -137,7 +154,9 @@ const Espacios = () => {
             </MDBContainer>
           </MDBCol>
         </MDBRow>
+		
 		<hr className="mb-5 mt-4" />
+        
         <MDBRow>
           <MDBCol md="12">
             <MDBCard reverse>
@@ -152,9 +171,55 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5' style={{'marginTop': '-3rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto' style={{'marginTop': '-1.5rem'}}>
               <MDBCardBody className="text-center">
-                <h4 className="font-weight-bold">
+                <h4 className="font-weight-bold h2-responsive">
+                  SALA MONTE ALBÁN
+                </h4>
+              </MDBCardBody>
+            </MDBCard>
+            <MDBContainer className="mt-5">
+              <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                praesentium voluptatum deleniti atque corrupti quos dolores et
+                quas molestias excepturi sint occaecati cupiditate non
+                provident, similique sunt in culpa nemo enim ipsam voluptatem
+                quia voluptas sit qui officia deserunt mollitia animi, id est
+                laborum et dolorum fuga quidem rerum facilis est distinctio.
+              </p>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere
+                possimus, omnis voluptas assumenda est, omnis dolor
+                repellendus. Quis autem vel eum iure reprehenderit qui in ea
+                voluptate velit esse quam nihil molestiae consequatur.
+                Temporibus autem quibusdam et aut officiis debitis aut rerum
+                necessitatibus saepe eveniet ut et voluptates repudiandae sint
+                et molestiae non recusandae itaque earum rerum.
+              </p>
+            </MDBContainer>
+          </MDBCol>
+        </MDBRow>
+        
+        <hr className="mb-5 mt-4" />
+
+        <MDBRow>
+          <MDBCol md="12">
+            <MDBCard reverse>
+              <MDBView hover cascade waves>
+                <img
+                  src="https://mdbootstrap.com/img/Photos/Slides/img%20(144).jpg"
+                  alt=""
+                  className="img-fluid"
+                  class="card-img"
+                />
+                <MDBMask overlay="white-slight" className="waves-light" />
+              </MDBView>
+            </MDBCard>
+
+            <MDBCard className='mx-5 w-responsive mx-auto' style={{'marginTop': '-1.5rem'}}>
+              <MDBCardBody className="text-center">
+                <h4 className="font-weight-bold h2-responsive">
                   AULA BONAMPAK
                 </h4>
               </MDBCardBody>
@@ -181,7 +246,55 @@ const Espacios = () => {
             </MDBContainer>
           </MDBCol>
         </MDBRow>
+        
         <hr className="mb-5 mt-4" />
+
+                <MDBRow>
+          <MDBCol md="12">
+            <MDBCard reverse>
+              <MDBView hover cascade waves>
+                <img
+                  src="https://mdbootstrap.com/img/Photos/Slides/img%20(144).jpg"
+                  alt=""
+                  className="img-fluid"
+                  class="card-img"
+                />
+                <MDBMask overlay="white-slight" className="waves-light" />
+              </MDBView>
+            </MDBCard>
+
+            <MDBCard className='mx-5 w-responsive mx-auto' style={{'marginTop': '-1.5rem'}}>
+              <MDBCardBody className="text-center">
+                <h4 className="font-weight-bold h2-responsive">
+                  TERRAZA TULÚM
+                </h4>
+              </MDBCardBody>
+            </MDBCard>
+            <MDBContainer className="mt-5">
+              <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                praesentium voluptatum deleniti atque corrupti quos dolores et
+                quas molestias excepturi sint occaecati cupiditate non
+                provident, similique sunt in culpa nemo enim ipsam voluptatem
+                quia voluptas sit qui officia deserunt mollitia animi, id est
+                laborum et dolorum fuga quidem rerum facilis est distinctio.
+              </p>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere
+                possimus, omnis voluptas assumenda est, omnis dolor
+                repellendus. Quis autem vel eum iure reprehenderit qui in ea
+                voluptate velit esse quam nihil molestiae consequatur.
+                Temporibus autem quibusdam et aut officiis debitis aut rerum
+                necessitatibus saepe eveniet ut et voluptates repudiandae sint
+                et molestiae non recusandae itaque earum rerum.
+              </p>
+            </MDBContainer>
+          </MDBCol>
+        </MDBRow>
+
+        <hr className="mb-5 mt-4" />
+
       </MDBCardBody>
     </div>
 
@@ -191,7 +304,7 @@ const Espacios = () => {
 
 const style = {
 	bg: {
-	  backgroundImage: 'url("../Assets/BackgroundWhite.jpg")',
+	  backgroundImage: 'url("../Assets/BackgroundAbstract.jpg")',
 	  height: '100%',
 	  backgroundAttachment: 'fixed',
 	  backgroundSize: 'cover',
