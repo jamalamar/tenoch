@@ -104,7 +104,7 @@ const Eventos = () => {
 
         <hr/>
 
-        <h3 className="h1-responsive font-weight-bold grey-text text-center my-5 py-3">
+        <h3 className="h1-responsive font-weight-bold black-text text-center my-5 py-3">
           Todos nuestros espacios cuentan con:
         </h3>
 

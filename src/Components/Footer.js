@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 function Footer (){
 	return(
 		<footer class="page-footer font-small orange pt-4" style={style.footer}>
-		  <div class="footer-copyright text-center py-3">© 2020 Copyright: 
-		    <a> Casa TENOCH INN</a>
+		  <div class="footer-copyright white-text text-center py-3">© 2020 Copyright: 
+		    <a> CASA TENOCH INN</a>
 		  </div>
 		</footer>
 	)
