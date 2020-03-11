@@ -42,10 +42,10 @@ function Inicio () {
                 alt="First slide"
               />
               <MDBMask className="flex-center" overlay="white-slight">
-                <MDBCol md='4' className='mb-4 text-center'>
-                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>CASA</h1>
-                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>TENOCH</h1>
-                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>INN</h1>
+                <MDBCol md='4' className='mb-4 text-center responsive'>
+                  <h1 className='display-3 z-depth-3 black-text warning-color font-weight-bold mr-5'>CASA</h1>
+                  <h1 className='display-3 z-depth-3 black-text warning-color font-weight-bold ml-5'>TENOCH</h1>
+                  <h1 className='display-3 z-depth-3 black-text warning-color font-weight-bold mr-5'>INN</h1>
                 </MDBCol>
               </MDBMask>
             </MDBView>
@@ -59,10 +59,10 @@ function Inicio () {
                 alt="Second slide"
               />
               <MDBMask className="flex-center" overlay="white-slight">
-                <MDBCol md='4' className='mb-4 text-center'>
-                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>CASA</h1>
-                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>TENOCH</h1>
-                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>INN</h1>
+                <MDBCol md='4' className='mb-4 text-center responsive'>
+                  <h1 className='display-3 z-depth-3 white-text warning-color font-weight-bold mr-5'>CASA</h1>
+                  <h1 className='display-3 z-depth-3 white-text warning-color font-weight-bold ml-5'>TENOCH</h1>
+                  <h1 className='display-3 z-depth-3 white-text warning-color font-weight-bold mr-5'>INN</h1>
                 </MDBCol>
               </MDBMask>
             </MDBView>
@@ -76,10 +76,10 @@ function Inicio () {
                 alt="Third slide"
               />
               <MDBMask className="flex-center" overlay="white-slight">
-                <MDBCol md='4' className='mb-4 text-center'>
-                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>CASA</h1>
-                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>TENOCH</h1>
-                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>INN</h1>
+                <MDBCol md='4' className='mb-4 text-center responsive'>
+                  <h1 className='display-3 z-depth-3 black-text warning-color font-weight-bold mr-5'>CASA</h1>
+                  <h1 className='display-3 z-depth-3 black-text warning-color font-weight-bold ml-5'>TENOCH</h1>
+                  <h1 className='display-3 z-depth-3 black-text warning-color font-weight-bold mr-5'>INN</h1>
                 </MDBCol>
               </MDBMask>
             </MDBView>
