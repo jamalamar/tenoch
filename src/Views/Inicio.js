@@ -14,43 +14,80 @@ import {
   MDBFormInline,
   MDBBtn,
   MDBView,
-  MDBContainer
+  MDBContainer, 
+  MDBCarousel, 
+  MDBCarouselInner, 
+  MDBCarouselItem
 } from 'mdbreact';
 
 
 function Inicio () {
     return (
-      <div id='parallaxintro'>
-        <MDBView
-          src={'https://mdbootstrap.com/img/Photos/Others/images/44.jpg'}
-          fixed
-        >
-          <MDBMask className='rgba-white-slight' />
-          <MDBContainer
-            className='d-flex justify-content-center align-items-center'
-            style={{ height: '100%', width: '100%', paddingTop: '15rem' }}
-          >
-            <MDBRow>
-              <MDBCol md='12' className='mb-4 white-text text-center'>
-                <h1 className='display-3 mb-0 pt-md-5 pt-5 white-text font-weight-bold'>
-                  Casa
-                  <span className='indigo-text font-weight-bold'>TENOCH</span>
-                </h1>
-                <hr className='hr-light my-4' />
-                <h5 className='text-uppercase pt-md-5 pt-sm-2 pt-5 pb-md-5 pb-sm-3 pb-5 white-text font-weight-bold'>
-                  Encuentra el espacio que estas buscando
-                </h5>
-                <MDBBtn
-                  className='btn-indigo'
-                  size='lg'
-                  href='/Espacios'
-                >
-                  Ver Mas
-                </MDBBtn>
-              </MDBCol>
-            </MDBRow>
-          </MDBContainer>
-        </MDBView>
+      <div>
+        <MDBCarousel
+        activeItem={1}
+        length={3}
+        showControls={true}
+        showIndicators={false}
+        className="z-depth-1"
+        interval={10000}
+        slide
+      >
+        <MDBCarouselInner>
+          <MDBCarouselItem itemId="1">
+            <MDBView>
+              <img
+                className="d-block w-100"
+                src="../Assets/Carousel/teotihuacan.jpg"
+                alt="First slide"
+              />
+              <MDBMask className="flex-center" overlay="white-slight">
+                <MDBCol md='4' className='mb-4 text-center'>
+                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>CASA</h1>
+                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>TENOCH</h1>
+                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>INN</h1>
+                </MDBCol>
+              </MDBMask>
+            </MDBView>
+          </MDBCarouselItem>
+
+          <MDBCarouselItem itemId="2">
+            <MDBView>
+              <img
+                className="d-block w-100"
+                src="../Assets/Carousel/piano.jpg"
+                alt="Second slide"
+              />
+              <MDBMask className="flex-center" overlay="white-slight">
+                <MDBCol md='4' className='mb-4 text-center'>
+                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>CASA</h1>
+                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>TENOCH</h1>
+                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>INN</h1>
+                </MDBCol>
+              </MDBMask>
+            </MDBView>
+          </MDBCarouselItem>
+
+          <MDBCarouselItem itemId="3">
+            <MDBView>
+              <img
+                className="d-block w-100"
+                src="../Assets/Carousel/chichen.jpg"
+                alt="Third slide"
+              />
+              <MDBMask className="flex-center" overlay="white-slight">
+                <MDBCol md='4' className='mb-4 text-center'>
+                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>CASA</h1>
+                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>TENOCH</h1>
+                  <h1 className='display-2-responsive white-text warning-color font-weight-bold'>INN</h1>
+                </MDBCol>
+              </MDBMask>
+            </MDBView>
+          </MDBCarouselItem>
+
+        </MDBCarouselInner>
+      </MDBCarousel>
+
         <main>
           <MDBContainer>
             <MDBRow className='py-5'>

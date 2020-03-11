@@ -4,7 +4,7 @@ import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, M
 const Espacios = () => {
   return (
   	<div className="pt-5" style={style.bg}>
-    <div className="w-responsive mx-auto pt-5">
+    <div className="w-responsive mx-auto">
       <MDBCardBody >
 
       <h1 className="font-weight-bold text-center my-5">

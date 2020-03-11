@@ -32,9 +32,9 @@ render() {
       <MDBNavbar color="white" light scrolling transparent expand="md" fixed="top">
         <MDBNavbarBrand className="waves-effect waves-light">
           <MDBNavLink to="/">
-            <h5 className="font-weight-normal text-dark font-weight-bold">
+            <h5 className="font-weight-normal black-text font-weight-bold">
               Tenoch
-              <span className='indigo-text font-weight-bold'>INN</span>
+              <span className='yellow-text font-weight-bold'>INN</span>
             </h5>
           </MDBNavLink>
         </MDBNavbarBrand>
@@ -49,11 +49,18 @@ render() {
               <MDBNavLink to="/" ><strong className="m-2">Inicio</strong></MDBNavLink>}
             </MDBNavItem>
 
-            <MDBNavItem>
-            { this.state.isOpen ?
+            {/*<MDBNavItem>
+              {this.state.isOpen ?
               <MDBNavLink to="/Nosotros" onClick={this.toggleCollapse}><strong className="m-2">Nosotros</strong></MDBNavLink>
               :
               <MDBNavLink to="/Nosotros" ><strong className="m-2">Nosotros</strong></MDBNavLink>}
+            </MDBNavItem>*/}
+            
+            <MDBNavItem>
+            {this.state.isOpen ?
+              <MDBNavLink to="/Espacios" onClick={this.toggleCollapse}><strong className="m-2">Espacios</strong></MDBNavLink>
+              :
+              <MDBNavLink to="/Espacios" ><strong className="m-2">Espacios</strong></MDBNavLink>}
             </MDBNavItem>
 
             <MDBNavItem>
@@ -61,13 +68,6 @@ render() {
               <MDBNavLink to="/Eventos" onClick={this.toggleCollapse}><strong className="m-2">Eventos</strong></MDBNavLink>
               :
               <MDBNavLink to="/Eventos" ><strong className="m-2">Eventos</strong></MDBNavLink>}
-            </MDBNavItem>
-            
-            <MDBNavItem>
-            {this.state.isOpen ?
-              <MDBNavLink to="/Espacios" onClick={this.toggleCollapse}><strong className="m-2">Espacios</strong></MDBNavLink>
-              :
-              <MDBNavLink to="/Espacios" ><strong className="m-2">Espacios</strong></MDBNavLink>}
             </MDBNavItem>
 
             <MDBNavItem>

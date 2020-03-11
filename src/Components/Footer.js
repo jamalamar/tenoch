@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Footer (){
 	return(
-		<footer class="page-footer font-small indigo pt-4" style={style.footer}>
+		<footer class="page-footer font-small orange pt-4" style={style.footer}>
 		  <div class="footer-copyright text-center py-3">© 2020 Copyright: 
 		    <a> Casa TENOCH INN</a>
 		  </div>

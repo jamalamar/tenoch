@@ -34,18 +34,18 @@ function App() {
         <Switch>
           <Route path='/' exact component={Inicio} />
           <Route path='/en/' exact component={Home} />
-
-          <Route path='/Nosotros' component={Nosotros} />
-          <Route path='/en/AboutUs' component={AboutUs} />
-          
-          <Route path='/Eventos' component={Eventos} />
-          <Route path='/en/Events' component={Events} />
           
           <Route path='/Espacios' component={Espacios} />
           <Route path='/en/Spaces' component={Spaces} />
+          
+          <Route path='/Eventos' component={Eventos} />
+          <Route path='/en/Events' component={Events} />
 
           <Route path='/Contacto' component={Contacto} />
           <Route path='/en/Contact' component={Contact} />
+
+          <Route path='/Nosotros' component={Nosotros} />
+          <Route path='/en/AboutUs' component={AboutUs} />
         </Switch>
 
         <Footer/>
