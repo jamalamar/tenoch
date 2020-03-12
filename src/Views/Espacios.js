@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBtn } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBtn, MDBTable, MDBTableBody, MDBTableHead } from "mdbreact";
 
 const Espacios = () => {
   return (
@@ -24,7 +24,7 @@ const Espacios = () => {
             <MDBCard reverse>
               <MDBView hover cascade waves>
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Slides/img%20(142).jpg"
+                  src="../Assets/Espacios/Teotihuacan.jpg"
                   alt=""
                   className="img-fluid"
                   class="card-img"
@@ -41,24 +41,31 @@ const Espacios = () => {
               </MDBCardBody>
             </MDBCard>
             <MDBContainer className="mt-5">
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                praesentium voluptatum deleniti atque corrupti quos dolores et
-                quas molestias excepturi sint occaecati cupiditate non
-                provident, similique sunt in culpa nemo enim ipsam voluptatem
-                quia voluptas sit qui officia deserunt mollitia animi, id est
-                laborum et dolorum fuga quidem rerum facilis est distinctio.
-              </p>
-              <p>
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                nihil impedit quo minus id quod maxime placeat facere
-                possimus, omnis voluptas assumenda est, omnis dolor
-                repellendus. Quis autem vel eum iure reprehenderit qui in ea
-                voluptate velit esse quam nihil molestiae consequatur.
-                Temporibus autem quibusdam et aut officiis debitis aut rerum
-                necessitatibus saepe eveniet ut et voluptates repudiandae sint
-                et molestiae non recusandae itaque earum rerum.
-              </p>
+             <MDBTable small>
+		      <MDBTableHead>
+		        <tr>
+		          <th><h5>Descripción</h5></th>
+		          <th><h5>Formato</h5></th>
+		          <th><h5>Medidas</h5></th>
+		        </tr>
+		      </MDBTableHead>
+		      <MDBTableBody>
+		        <tr>
+		          <td>
+			          <p>Espacio ideal para tener una sesión de trabajo.</p>
+			          <p>Diferentes tipos de montajes.</p>
+			          <p>Cuanta con TV Pantalla de 65”, WIFI, aire acondicionado, mesas, sillas ejecutivas, perchero y persianas black out.</p>
+		          </td>
+		          <td>
+		          	<p>Imperial con capacidad para 20 personas sentadas.</p>
+		          	<p>Escuela con capacidad para 12 personas sentadas.</p>
+		          	<p>Auditorio con capacidad para 20 (pupitres) personas sentadas.</p>
+		          	<p>Auditorio con capacidad para 35 (sillas) personas sentadas.</p>
+		          </td>
+		          <td>34 m2</td>
+		        </tr>
+		      </MDBTableBody>
+		    </MDBTable>
             </MDBContainer>
           </MDBCol>
         </MDBRow>
@@ -70,7 +77,7 @@ const Espacios = () => {
             <MDBCard reverse>
               <MDBView hover cascade waves>
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Slides/img%20(146).jpg"
+                  src="../Assets/Espacios/Chichen.jpg"
                   alt=""
                   className="img-fluid"
                   class="card-img"
@@ -87,24 +94,25 @@ const Espacios = () => {
               </MDBCardBody>
             </MDBCard>
             <MDBContainer className="mt-5">
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque
-                ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem.
-              </p>
-              <p>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                amet, consectetur, adipisci velit, sed quia non numquam eius
-                modi tempora incidunt ut labore et dolore magnam aliquam
-                quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-                exercitationem ullam corporis suscipit laboriosam, nisi ut
-                aliquid ex ea commodi consequatur? Quis autem vel eum iure
-                reprehenderit qui in ea voluptate velit esse quam nihil
-                molestiae consequatur.
-              </p>
+             <MDBTable small>
+		      <MDBTableHead>
+		        <tr>
+		          <th><h5>Descripción</h5></th>
+		          <th><h5>Formato</h5></th>
+		          <th><h5>Medidas</h5></th>
+		        </tr>
+		      </MDBTableHead>
+		      <MDBTableBody>
+		        <tr>
+		          <td>
+			          <p>Espacio ideal para cerrar un negocio o tener una reunión de trabajo.</p>
+			          <p>Cuanta con TV Pantalla de 65”, WIFI, teléfono inalambrico, un Sofa y tres Sillones individuales, mesas laterales,  chimenea y persianas black out.</p>
+			      </td>
+		          <td>Sala con chimenea con capacidad para 6 personas sentadas.</td>
+		          <td>17 m2</td>
+		        </tr>
+		      </MDBTableBody>
+		    </MDBTable>
             </MDBContainer>
           </MDBCol>
         </MDBRow>
@@ -116,7 +124,7 @@ const Espacios = () => {
             <MDBCard reverse>
               <MDBView hover cascade waves>
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Slides/img%20(148).jpg"
+                  src="../Assets/Espacios/Coba.jpg"
                   alt=""
                   className="img-fluid"
                   class="card-img"
@@ -133,24 +141,25 @@ const Espacios = () => {
               </MDBCardBody>
             </MDBCard>
             <MDBContainer className="mt-5">
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                praesentium voluptatum deleniti atque corrupti quos dolores et
-                quas molestias excepturi sint occaecati cupiditate non
-                provident, similique sunt in culpa nemo enim ipsam voluptatem
-                quia voluptas sit qui officia deserunt mollitia animi, id est
-                laborum et dolorum fuga quidem rerum facilis est distinctio.
-              </p>
-              <p>
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                nihil impedit quo minus id quod maxime placeat facere
-                possimus, omnis voluptas assumenda est, omnis dolor
-                repellendus. Quis autem vel eum iure reprehenderit qui in ea
-                voluptate velit esse quam nihil molestiae consequatur.
-                Temporibus autem quibusdam et aut officiis debitis aut rerum
-                necessitatibus saepe eveniet ut et voluptates repudiandae sint
-                et molestiae non recusandae itaque earum rerum.
-              </p>
+             <MDBTable small>
+		      <MDBTableHead>
+		        <tr>
+		          <th><h5>Descripción</h5></th>
+		          <th><h5>Formato</h5></th>
+		          <th><h5>Medidas</h5></th>
+		        </tr>
+		      </MDBTableHead>
+		      <MDBTableBody>
+		        <tr>
+		          <td>
+			          <p>Espacio ideal para tener una junta de trabajo.</p>
+			          <p>Cuanta con TV Pantalla de 65”, WIFI, teléfono para hablar en conferencia, mesa de cristal, sillas ejecutivas, Contadora de billetes, perchero y persianas black out.</p>
+			      </td>
+		          <td>Imperial con capacidad para 8 personas sentadas.</td>
+		          <td>11 m2</td>
+		        </tr>
+		      </MDBTableBody>
+		    </MDBTable>
             </MDBContainer>
           </MDBCol>
         </MDBRow>
@@ -162,7 +171,7 @@ const Espacios = () => {
             <MDBCard reverse>
               <MDBView hover cascade waves>
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Slides/img%20(144).jpg"
+                  src="../Assets/Espacios/MonteAlban.jpg"
                   alt=""
                   className="img-fluid"
                   class="card-img"
@@ -179,24 +188,30 @@ const Espacios = () => {
               </MDBCardBody>
             </MDBCard>
             <MDBContainer className="mt-5">
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                praesentium voluptatum deleniti atque corrupti quos dolores et
-                quas molestias excepturi sint occaecati cupiditate non
-                provident, similique sunt in culpa nemo enim ipsam voluptatem
-                quia voluptas sit qui officia deserunt mollitia animi, id est
-                laborum et dolorum fuga quidem rerum facilis est distinctio.
-              </p>
-              <p>
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                nihil impedit quo minus id quod maxime placeat facere
-                possimus, omnis voluptas assumenda est, omnis dolor
-                repellendus. Quis autem vel eum iure reprehenderit qui in ea
-                voluptate velit esse quam nihil molestiae consequatur.
-                Temporibus autem quibusdam et aut officiis debitis aut rerum
-                necessitatibus saepe eveniet ut et voluptates repudiandae sint
-                et molestiae non recusandae itaque earum rerum.
-              </p>
+              <MDBTable small>
+		      <MDBTableHead>
+		        <tr>
+		          <th><h5>Descripción</h5></th>
+		          <th><h5>Formato</h5></th>
+		          <th><h5>Medidas</h5></th>
+		        </tr>
+		      </MDBTableHead>
+		      <MDBTableBody>
+		        <tr>
+		          <td>
+			          <p>Espacio ideal para tener una sesión de trabajo.</p>
+			          <p>Diferentes tipos de montajes.</p>
+			          <p>Cuanta con TV Pantalla de 65”, WIFI, mesas, sillas ejecutivas, perchero y persianas black out.</p>
+			      </td>
+		          <td>
+		          	<p>Imperial con capacidad para 8 personas sentadas.</p>
+		          	<p>Herradura con capacidad para 6 personas sentadas.</p>
+		          	<p>Auditorio con capacidad para 12 personas sentadas.</p>
+		          </td>
+		          <td>12 m2</td>
+		        </tr>
+		      </MDBTableBody>
+		    </MDBTable>
             </MDBContainer>
           </MDBCol>
         </MDBRow>
@@ -208,7 +223,7 @@ const Espacios = () => {
             <MDBCard reverse>
               <MDBView hover cascade waves>
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Slides/img%20(144).jpg"
+                  src="../Assets/Espacios/Bonampak.jpg"
                   alt=""
                   className="img-fluid"
                   class="card-img"
@@ -225,24 +240,25 @@ const Espacios = () => {
               </MDBCardBody>
             </MDBCard>
             <MDBContainer className="mt-5">
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                praesentium voluptatum deleniti atque corrupti quos dolores et
-                quas molestias excepturi sint occaecati cupiditate non
-                provident, similique sunt in culpa nemo enim ipsam voluptatem
-                quia voluptas sit qui officia deserunt mollitia animi, id est
-                laborum et dolorum fuga quidem rerum facilis est distinctio.
-              </p>
-              <p>
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                nihil impedit quo minus id quod maxime placeat facere
-                possimus, omnis voluptas assumenda est, omnis dolor
-                repellendus. Quis autem vel eum iure reprehenderit qui in ea
-                voluptate velit esse quam nihil molestiae consequatur.
-                Temporibus autem quibusdam et aut officiis debitis aut rerum
-                necessitatibus saepe eveniet ut et voluptates repudiandae sint
-                et molestiae non recusandae itaque earum rerum.
-              </p>
+             <MDBTable small>
+		      <MDBTableHead>
+		        <tr>
+		          <th><h5>Descripción</h5></th>
+		          <th><h5>Formato</h5></th>
+		          <th><h5>Medidas</h5></th>
+		        </tr>
+		      </MDBTableHead>
+		      <MDBTableBody>
+		        <tr>
+		          <td>
+			          <p>Espacio ideal para tener una capacitación.</p>
+			          <p>Cuanta con TV Pantalla de 65”, WIFI, pupitres, perchero y persianas black out.</p>
+			      </td>
+		          <td>Auditorio con una capacidad de 10 pupitres.</td>
+		          <td>12 m2</td>
+		        </tr>
+		      </MDBTableBody>
+		    </MDBTable>
             </MDBContainer>
           </MDBCol>
         </MDBRow>
@@ -254,7 +270,7 @@ const Espacios = () => {
             <MDBCard reverse>
               <MDBView hover cascade waves>
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Slides/img%20(144).jpg"
+                  src="../Assets/Espacios/Tulum.jpg"
                   alt=""
                   className="img-fluid"
                   class="card-img"
@@ -271,24 +287,22 @@ const Espacios = () => {
               </MDBCardBody>
             </MDBCard>
             <MDBContainer className="mt-5">
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                praesentium voluptatum deleniti atque corrupti quos dolores et
-                quas molestias excepturi sint occaecati cupiditate non
-                provident, similique sunt in culpa nemo enim ipsam voluptatem
-                quia voluptas sit qui officia deserunt mollitia animi, id est
-                laborum et dolorum fuga quidem rerum facilis est distinctio.
-              </p>
-              <p>
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                nihil impedit quo minus id quod maxime placeat facere
-                possimus, omnis voluptas assumenda est, omnis dolor
-                repellendus. Quis autem vel eum iure reprehenderit qui in ea
-                voluptate velit esse quam nihil molestiae consequatur.
-                Temporibus autem quibusdam et aut officiis debitis aut rerum
-                necessitatibus saepe eveniet ut et voluptates repudiandae sint
-                et molestiae non recusandae itaque earum rerum.
-              </p>
+            <MDBTable small>
+		      <MDBTableHead>
+		        <tr>
+		          <th><h5>Descripción</h5></th>
+		          <th><h5>Formato</h5></th>
+		          <th><h5>Medidas</h5></th>
+		        </tr>
+		      </MDBTableHead>
+		      <MDBTableBody>
+		        <tr>
+		          <td>Espacio al aire libre para evento social o actividad recreativa.</td>
+		          <td>Capacidad 15 personas.</td>
+		          <td>20 m2</td>
+		        </tr>
+		      </MDBTableBody>
+		    </MDBTable>
             </MDBContainer>
           </MDBCol>
         </MDBRow>

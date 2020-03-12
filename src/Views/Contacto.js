@@ -76,8 +76,8 @@ const Contacto = () => {
             style={{ height: "400px" }}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d76765.98321148289!2d-73.96694563267306!3d40.751663750099084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1525939514494"
-              title="Casa Tenoch"
+              src="https://maps.google.com/maps?q=Miguel%20Lerdo%20de%20Tejada%20%23%2017%2C%20Col.%20Guadalupe%20Inn%2C%20Alcald%C3%ADa%20%C3%81lvaro%20Obreg%C3%B3n%2C%20CP%2001020%2C%20CDMX&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              title="Casa Tenoch Inn"
               width="100%"
               height="100%"
               frameBorder="0"
@@ -90,22 +90,22 @@ const Contacto = () => {
               <MDBBtn tag="a" floating color="blue" className="accent-1">
                 <MDBIcon icon="map-marker-alt" />
               </MDBBtn>
-              <p>CDMX, 94126</p>
-              <p className="mb-md-0">México</p>
+              <p>Miguel Lerdo de Tejada # 17, Col. Guadalupe Inn, Alcaldía Álvaro Obregón, CP 01020, CDMX</p>
+              <p className="mb-md-0"></p>
             </MDBCol>
             <MDBCol md="4">
               <MDBBtn tag="a" floating color="blue" className="accent-1">
                 <MDBIcon icon="phone" />
               </MDBBtn>
-              <p>+ 01 234 567 89</p>
-              <p className="mb-md-0">Lun - Vie, 8:00-22:00</p>
+              <p>+ 5512240436</p>
+              <p>+ 5562352033</p>
             </MDBCol>
             <MDBCol md="4">
               <MDBBtn tag="a" floating color="blue" className="accent-1">
                 <MDBIcon icon="envelope" />
               </MDBBtn>
-              <p>info@gmail.com</p>
-              <p className="mb-md-0">sale@gmail.com</p>
+              <p>ventas@casatenoch.com </p>
+              <p className="mb-md-0">contacto@casatenoch.com </p>
             </MDBCol>
           </MDBRow>
         </MDBCol>
@@ -114,5 +114,6 @@ const Contacto = () => {
     </section>
   );
 }
+
 
 export default Contacto;

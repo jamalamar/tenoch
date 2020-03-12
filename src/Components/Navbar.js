@@ -80,7 +80,7 @@ render() {
 
           <MDBNavbarNav right>
             <MDBNavItem>
-              <a href="https://instagram.com/jamalamar/" target="__blank">
+              <a href="https://instagram.com/casa_tenoch/" target="__blank">
                 <MDBNavLink disabled className="waves-effect waves-light" to='#'>
                   <MDBIcon fab icon="instagram" size="2x"/>
                 </MDBNavLink>
