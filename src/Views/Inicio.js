@@ -30,7 +30,7 @@ function Inicio () {
         showControls={true}
         showIndicators={false}
         className="z-depth-1"
-        interval={10000}
+        interval={3000}
         slide
       >
         <MDBCarouselInner>
