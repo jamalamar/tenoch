@@ -3,12 +3,12 @@ import { MDBRow, MDBCol, MDBView, MDBMask, MDBCard, MDBCardBody, MDBIcon, MDBBtn
 
 const Contacto = () => {
   return (
-    <section className="mt-5">
+    <section className="mb-5 rgba-yellow-slight">
 	    <MDBView
-	          src={'https://mdbootstrap.com/img/Photos/Others/images/62.jpg'}
+	          src={''}
 	          fixed
 	    >
-	    <MDBMask className='rgba-white-light' />
+	    <MDBMask className='' />
        {/*<h2 className="h1-responsive font-weight-bold text-center my-5">
         Cotactanos
       </h2>
@@ -18,7 +18,7 @@ const Contacto = () => {
         totam voluptas nostrum quisquam eum porro a pariatur veniam.
       </p>*/}
       <MDBRow className="w-responsive mx-auto pt-5 m-5">
-        <MDBCol lg="5" className="lg-0 mb-4">
+        <MDBCol lg="5" className="lg-0 mb-4 mt-5">
           <MDBCard>
             <MDBCardBody>
               <div className="form-header blue accent-1 text-center p-3" style={{'marginTop': '-3rem'}}>
@@ -69,7 +69,7 @@ const Contacto = () => {
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
-        <MDBCol lg="7">
+        <MDBCol lg="7 mt-5">
           <div
             id="map-container"
             className="rounded z-depth-1-half map-container"

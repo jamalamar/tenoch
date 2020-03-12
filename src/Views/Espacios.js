@@ -3,8 +3,8 @@ import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, M
 
 const Espacios = () => {
   return (
-  	<div className="pt-5" style={style.bg}>
-    <div className="w-responsive mx-auto">
+  	<div className="pt-5  rgba-yellow-slight">
+    <div className="w-responsive mx-auto" >
       <MDBCardBody >
 
       <h1 className="font-weight-bold text-center my-5">

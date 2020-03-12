@@ -3,9 +3,9 @@ import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBt
 
 const Eventos = () => {
   return (
-    <div className="my-5 px-5 pb-5">
+    <div className="mb-5 px-5 pb-5 rgba-yellow-slight">
       <MDBCardBody className="text-center">
-        <h1 className="font-weight-bold text-center my-5">
+        <h1 className="font-weight-bold text-center my-5 pt-5">
           Eventos Especiales
         </h1>
         <p className="text-center w-responsive mx-auto mb-5">
