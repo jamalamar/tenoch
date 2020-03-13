@@ -27,45 +27,59 @@ const Contacto = () => {
                 </h3>
               </div>
 
+              <form name="TenochContactForm" method="post" >
+              {/*Value set to the same of the Form on Index.html*/}
+				    <input type="hidden" name="form-name" value="TenochContactForm" />
+              
               <div className="md-form">
                 <MDBInput
                   icon="user"
                   label="Nombre"
+                  name="Nombre"
                   iconClass="grey-text"
                   type="text"
                   id="form-name"
+                  required
                 />
               </div>
               <div className="md-form">
                 <MDBInput
                   icon="envelope"
-                  label="Correo"
+                  label="E-Mail"
+                  name="E-Mail"
                   iconClass="grey-text"
-                  type="text"
+                  type="email"
                   id="form-email"
+                  required
                 />
               </div>
               <div className="md-form">
                 <MDBInput
                   icon="tag"
                   label="Asunto"
+                  name="Asunto"
                   iconClass="grey-text"
                   type="text"
                   id="form-subject"
+                  required
                 />
               </div>
               <div className="md-form">
                 <MDBInput
                   icon="pencil-alt"
                   label="Mensaje"
+                  name="Mensaje"
                   iconClass="grey-text"
                   type="textarea"
                   id="form-text"
+                  required
                 />
               </div>
               <div className="text-center">
-                <MDBBtn color="light-blue">Enviar</MDBBtn>
+                <MDBBtn color="light-blue" type="submit">Enviar</MDBBtn>
               </div>
+            </form>
+
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
