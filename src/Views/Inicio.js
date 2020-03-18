@@ -17,7 +17,8 @@ import {
   MDBContainer, 
   MDBCarousel, 
   MDBCarouselInner, 
-  MDBCarouselItem
+  MDBCarouselItem,
+  MDBIcon
 } from 'mdbreact';
 
 
@@ -90,64 +91,128 @@ function Inicio () {
 
         <main>
           <MDBContainer>
-            <MDBRow className='py-5'>
-              <MDBCol md='12' className='text-center'>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet, consectetur, adipisci velit, sed quia non
-                  numquam eius modi tempora incidunt ut labore et dolore magnam
-                  aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                  nostrum exercitationem ullam corporis suscipit laboriosam,
-                  nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum
-                  iure reprehenderit qui in ea voluptate velit esse quam nihil
-                  molestiae consequatur, vel illum qui dolorem eum fugiat quo
-                  voluptas nulla pariatur?
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet, consectetur, adipisci velit, sed quia non
-                  numquam eius modi tempora incidunt ut labore et dolore magnam
-                  aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                  nostrum exercitationem ullam corporis suscipit laboriosam,
-                  nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum
-                  iure reprehenderit qui in ea voluptate velit esse quam nihil
-                  molestiae consequatur, vel illum qui dolorem eum fugiat quo
-                  voluptas nulla pariatur?
-                </p>
-              </MDBCol>
-            </MDBRow>
+
+          <hr className="my-5" />
+          <MDBRow>
+          <MDBCol lg="5">
+            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+              <img
+                className="img-fluid"
+                src="../Assets/lightbulb.jpg"
+                alt=""
+              />
+              <a href="#!">
+                <MDBMask overlay="white-slight" />
+              </a>
+            </MDBView>
+          </MDBCol>
+          <MDBCol lg="7">
+            <a href="#!" className="orange-text">
+              <h6 className="font-weight-bold mb-3">
+                <MDBIcon icon="lightbulb" className="pr-2" />
+                Concepto
+              </h6>
+            </a>
+            <p className="h4 text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+              <p className="font-weight-bolder" style={{display: 'inline', letterSpacing: '1px'}}>CASA TENOCH INN </p> 
+              nació con la idea de crear un centro de negocios boutique
+               que nos permitiera brindar atención personalizada y de gran calidad a 
+               nuestros clientes bajo un concepto histórico que destacara las raíces 
+               prehispánicas de nuestro país.
+            </p>
+            <p className="h4 text-justify font-weight-lighter" style={{letterSpacing: '1px'}}>
+              Así, debemos parte del nombre a la capital del Imperio Mexica, La Gran 
+              Tenochtitlan, fundada por nuestros antepasados nahuas hace más de 600 años.  
+              Por su parte la palabra <p className="font-weight-bolder" style={{display: 'inline', letterSpacing: '1px'}}>“INN” </p>
+               alude a una de las zonas más bellas, exclusivas 
+              y céntricas de la Ciudad de México, nos referimos a la colonia Guadalupe Inn, 
+              lugar en el que se encuentra ubicada la casa que alberga los espacios que 
+              fueron pacientemente pensados y diseñados para la comodidad de nuestros 
+              clientes.
+            </p>
+          </MDBCol>
+        </MDBRow>
+        <hr className="my-5" />
+        <MDBRow>
+          <MDBCol lg="7">
+            <a href="#!" className="orange-text">
+              <h6 className="font-weight-bold mb-3">
+                <MDBIcon icon="landmark" className="pr-2" />
+                Diseño
+              </h6>
+            </a>
+            <p className="h4 text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+              Nuestros espacios poseen un diseño ecléctico que combina la arquitectura de 
+              una casona de los años 30s con un diseño vanguardista y funcional en donde 
+              es posible encontrar salas de juntas y capacitación con diferentes escenarios 
+              y capacidades que van desde un aula con pupitres estilo salón de clases, 
+              pasando por la tradicional y tecnológicamente equipada sala de juntas de 
+              consejo, hasta llegar a la privacidad, comodidad y buen gusto de una acogedora 
+              sala amueblada con confortables sillones colocados en torno a la elegante 
+              chimenea forrada en mármol, sin lugar a dudas un distintivo inigualable de 
+              nuestro salón Chichen Itzá.
+            </p>
+            <MDBBtn
+              color="orange"
+              size="md"
+              className="mb-lg-0 mb-4 waves-light"
+              href="/Espacios"
+            >
+              Ver Más
+            </MDBBtn>
+          </MDBCol>
+          <MDBCol lg="5">
+            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+              <img
+                className="img-fluid"
+                src="../Assets/itza.jpg"
+                alt=""
+              />
+              <a href="#!">
+                <MDBMask overlay="white-slight" />
+              </a>
+            </MDBView>
+          </MDBCol>
+        </MDBRow>
+        <hr className="my-5" />
+        <MDBRow>
+          <MDBCol lg="5">
+            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+              <img
+                className="img-fluid"
+                src="../Assets/coffee.jpg"
+                alt=""
+              />
+              <a href="#!">
+                <MDBMask overlay="white-slight" />
+              </a>
+            </MDBView>
+          </MDBCol>
+          <MDBCol lg="7">
+            <a href="#!" className="orange-text">
+              <h6 className="font-weight-bold mb-3">
+                <MDBIcon icon="coffee" className="pr-2" />
+                Descubre
+              </h6>
+            </a>
+            <p className="h4 text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+              Podemos encontrar el concepto precolombino en cada una de nuestras salas y 
+              salones que llevan nombres de diferentes zonas arqueológicas que han sido 
+              halladas a lo largo del territorio nacional, así como en cada uno de nuestros 
+              planes de “coffee break” cuyas denominaciones hacen referencia a la 
+              organización política, económica, social y cultural de la época.
+            </p>
+            <p className="h4 text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+              Búsquenos en <a href="https://instagram.com/casa_tenoch/" target="__blank" className="font-weight-bolder orange-text" style={{display: 'inline', letterSpacing: '1px'}}>Instagram<MDBIcon icon="link" size='xs'/> </a>
+              en donde podrá visualizar nuestras instalaciones y enterarse 
+              de los exclusivos eventos de Cata, Piano & Business en los que CASA TENOCH INN 
+              fusiona la oportunidad de realizar actividades de networking a gran nivel con 
+              sla cautivadora experiencia de acudir a una selecta cata amenizada con música de piano. 
+            </p>
+          </MDBCol>
+        </MDBRow>
+        <hr className="my-5" />
+
           </MDBContainer>
         </main>
       </div>
