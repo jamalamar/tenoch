@@ -5,7 +5,8 @@ const Espacios = () => {
   return (
   	<div className="pt-5 ">
     <div className="w-responsive mx-auto" >
-      <MDBCardBody >
+      
+      <MDBCardBody style={{fontFamily: 'Noto Serif' }}>
 
       <h1 className="font-weight-bold text-center my-5">
           Conoce Nuestros Espacios
@@ -19,7 +20,7 @@ const Espacios = () => {
 
         <hr className="mb-5 mt-5" />
 
-       <MDBRow>
+       <MDBRow >
           <MDBCol md="12">
             <MDBCard reverse>
               <MDBView hover cascade waves>
@@ -35,7 +36,7 @@ const Espacios = () => {
 
             <MDBCard className='w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
               <MDBCardBody className="text-center">
-                <h4 className="font-weight-bold h2-responsive">
+                <h4 className="h2-responsive">
                   SALÓN TEOTIHUACÁN
                 </h4>
               </MDBCardBody>
