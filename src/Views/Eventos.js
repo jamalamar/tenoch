@@ -3,7 +3,7 @@ import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBt
 
 const Eventos = () => {
   return (
-    <div className="mb-5 px-5 pb-5 rgba-yellow-slight">
+    <div className="px-5 pb-5">
       <MDBCardBody className="text-center">
         <h1 className="font-weight-bold text-center my-5 pt-5">
           Eventos Especiales
@@ -20,7 +20,7 @@ const Eventos = () => {
             <MDBView hover className="rounded z-depth-2 mb-4" waves>
               <img
                 className="img-fluid"
-                src="https://mdbootstrap.com/img/Photos/Others/images/81.jpg"
+                src="../Assets/empresariales.jpg"
                 alt=""
               />
               <MDBMask overlay="white-slight" />
@@ -77,7 +77,7 @@ const Eventos = () => {
             <MDBView hover className="rounded z-depth-2 mb-4" waves>
               <img
                 className="img-fluid"
-                src="https://mdbootstrap.com/img/Photos/Others/images/13.jpg"
+                src="../Assets/sociales.jpeg"
                 alt=""
               />
               <MDBMask overlay="white-slight" />

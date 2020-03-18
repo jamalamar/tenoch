@@ -3,7 +3,7 @@ import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, M
 
 const Espacios = () => {
   return (
-  	<div className="pt-5  rgba-yellow-slight">
+  	<div className="pt-5 ">
     <div className="w-responsive mx-auto" >
       <MDBCardBody >
 
@@ -33,7 +33,7 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='w-responsive mx-auto' style={{'marginTop': '-1.5rem'}}>
+            <MDBCard className='w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
               <MDBCardBody className="text-center">
                 <h4 className="font-weight-bold h2-responsive">
                   SALÓN TEOTIHUACÁN
@@ -86,7 +86,7 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5 w-responsive mx-auto' style={{'marginTop': '-1.5rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
               <MDBCardBody className="text-center">
                 <h4 className="font-weight-bold h2-responsive">
                   SALÓN CHICHEN ITZÁ
@@ -133,7 +133,7 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5 w-responsive mx-auto' style={{'marginTop': '-1.5rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
               <MDBCardBody className="text-center">
                 <h4 className="font-weight-bold h2-responsive">
                   SALA COBÁ
@@ -180,7 +180,7 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5 w-responsive mx-auto' style={{'marginTop': '-1.5rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
               <MDBCardBody className="text-center">
                 <h4 className="font-weight-bold h2-responsive">
                   SALA MONTE ALBÁN
@@ -232,7 +232,7 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5 w-responsive mx-auto' style={{'marginTop': '-1.5rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
               <MDBCardBody className="text-center">
                 <h4 className="font-weight-bold h2-responsive">
                   AULA BONAMPAK
@@ -279,9 +279,9 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5 w-responsive mx-auto' style={{'marginTop': '-1.5rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
               <MDBCardBody className="text-center">
-                <h4 className="font-weight-bold h2-responsive">
+                <h4 className="font-weight-bold h2-responsive white-text">
                   TERRAZA TULÚM
                 </h4>
               </MDBCardBody>

@@ -3,7 +3,7 @@ import { MDBRow, MDBCol, MDBView, MDBMask, MDBCard, MDBCardBody, MDBIcon, MDBBtn
 
 const Contacto = () => {
   return (
-    <section className="mb-5 rgba-yellow-slight">
+    <section className="pb-5">
 	    <MDBView
 	          src={''}
 	          fixed
