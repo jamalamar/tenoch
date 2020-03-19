@@ -94,7 +94,7 @@ const Eventos = () => {
               Contamos con espacios ideales para realizar catas, 
               cocteles y eventos recreativos.
             </p>
-            <MDBBtn color="orange" rounded size="md">
+            <MDBBtn color="orange" rounded size="md" className="mt-4">
               Ver Más
             </MDBBtn>
           </MDBCol>
