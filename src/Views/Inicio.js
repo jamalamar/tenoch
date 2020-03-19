@@ -88,11 +88,11 @@ function Inicio () {
       </MDBCarousel>
 
         <main>
-          <MDBContainer>
+          <MDBContainer style={{fontSize: '14px'}}>
 
           <hr className="my-5" />
           <MDBRow>
-          <MDBCol lg="4">
+          <MDBCol lg="3">
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
@@ -104,21 +104,21 @@ function Inicio () {
               </a>
             </MDBView>
           </MDBCol>
-          <MDBCol lg="8">
+          <MDBCol lg="9" className="m-auto">
             <a href="#!" className="orange-text">
               <h6 className="font-weight-bold mb-3">
                 <MDBIcon icon="lightbulb" className="pr-2" />
                 Concepto
               </h6>
             </a>
-            <p className="h6-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+            <p className="responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
               <p className="font-weight-bolder" style={{display: 'inline', letterSpacing: '1px'}}>CASA TENOCH INN </p> 
               nació con la idea de crear un centro de negocios boutique
                que nos permitiera brindar atención personalizada y de gran calidad a 
                nuestros clientes bajo un concepto histórico que destacara las raíces 
                prehispánicas de nuestro país.
             </p>
-            <p className="h6-responsive text-justify font-weight-lighter" style={{letterSpacing: '1px'}}>
+            <p className="responsive text-justify font-weight-lighter" style={{letterSpacing: '1px'}}>
               Así, debemos parte del nombre a la capital del Imperio Mexica, La Gran 
               Tenochtitlan, fundada por nuestros antepasados nahuas hace más de 600 años.  
               Por su parte la palabra <p className="font-weight-bolder" style={{display: 'inline', letterSpacing: '1px'}}>“INN” </p>
@@ -132,14 +132,14 @@ function Inicio () {
         </MDBRow>
         <hr className="my-5" />
         <MDBRow>
-          <MDBCol lg="7">
+          <MDBCol lg="8" className="m-auto">
             <a href="#!" className="orange-text">
               <h6 className="font-weight-bold mb-3">
                 <MDBIcon icon="landmark" className="pr-2" />
                 Diseño
               </h6>
             </a>
-            <p className="h6-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+            <p className="responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
               Nuestros espacios poseen un diseño ecléctico que combina la arquitectura de 
               una casona de los años 30s con un diseño vanguardista y funcional en donde 
               es posible encontrar salas de juntas y capacitación con diferentes escenarios 
@@ -159,7 +159,7 @@ function Inicio () {
               Ver Más
             </MDBBtn>
           </MDBCol>
-          <MDBCol lg="5">
+          <MDBCol lg="4">
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
@@ -186,14 +186,14 @@ function Inicio () {
               </a>
             </MDBView>
           </MDBCol>
-          <MDBCol lg="9">
+          <MDBCol lg="9" className="m-auto">
             <a href="#!" className="orange-text">
               <h6 className="font-weight-bold mb-3">
                 <MDBIcon icon="coffee" className="pr-2" />
                 Descubre
               </h6>
             </a>
-            <p className="h5-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+            <p className="responsive text-justify font-weight-lighter" style={{letterSpacing: '1px'}}>
               Podemos encontrar el concepto precolombino en cada una de nuestras salas y 
               salones que llevan nombres de diferentes zonas arqueológicas que han sido 
               halladas a lo largo del territorio nacional, así como en cada uno de nuestros 
@@ -204,14 +204,14 @@ function Inicio () {
         </MDBRow>
         <hr className="my-5" />
         <MDBRow>
-          <MDBCol lg="7">
+          <MDBCol lg="8" className="m-auto">
             <a href="#!" className="orange-text">
               <h6 className="font-weight-bold mb-3">
                 <MDBIcon icon="wine-glass-alt" className="pr-2" />
                 Sociales
               </h6>
             </a>
-            <p className="h4-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+            <p className="responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
               Búsquenos en <a href="https://instagram.com/casa_tenoch/" target="__blank" className="font-weight-bolder orange-text" style={{display: 'inline', letterSpacing: '1px'}}>Instagram<MDBIcon icon="link" size='xs'/> </a>
               en donde podrá visualizar nuestras instalaciones y enterarse 
               de los exclusivos eventos de Cata, Piano & Business en los que CASA TENOCH INN 
@@ -228,7 +228,7 @@ function Inicio () {
               Ir
             </MDBBtn>
           </MDBCol>
-          <MDBCol lg="5">
+          <MDBCol lg="4">
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"

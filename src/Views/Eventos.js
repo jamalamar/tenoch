@@ -6,7 +6,7 @@ const Eventos = () => {
     <div className="px-5 pb-5">
       <MDBCardBody className="text-center">
         <h1 className="font-weight-bold text-center my-5 pt-5">
-          Eventos Especiales
+          EVENTOS ESPECIALES
         </h1>
         <p className="h3-responsive text-center w-responsive mx-auto mb-5">
           CASA TENOCH INN se adapta a las necesidades de tu evento, ya sea empresarial o social.

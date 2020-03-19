@@ -9,7 +9,7 @@ const Espacios = () => {
       <MDBCardBody>
 
       <h1 className="font-weight-bold text-center my-5">
-          Conoce Nuestros Espacios
+          CONOCE NUESTROS ESPACIOS
         </h1>
         
 
@@ -50,7 +50,7 @@ const Espacios = () => {
 		          <td>
 			          <p>Espacio ideal para tener una sesión de trabajo.</p>
 			          <p>Diferentes tipos de montajes.</p>
-			          <p>Cuenta con TV Pantalla de 75”, WIFI, Aire Acondicionado, Mesas, Sillas Ejecutivas, Perchero y Persianas Black Out.</p>
+			          <p>Cuenta con TV Pantalla de 75”, Pizarrón de Cristal, Rotafolio, WIFI, Aire Acondicionado, Mesas, Sillas Ejecutivas, Perchero y Persianas Black Out.</p>
 			          <p>Con opción de Coffee Break.</p>
 		          </td>
 		          <td>
@@ -151,7 +151,7 @@ const Espacios = () => {
 		        <tr>
 		          <td>
 			          <p>Espacio ideal para tener una junta de trabajo.</p>
-			          <p>Cuenta con TV Pantalla de 65”, WIFI, Teléfono para hablar en Conferencia, Mesa de Cristal, Sillas Ejecutivas, Contadora de Billetes, Perchero y Persianas Black Out.</p>
+			          <p>Cuenta con TV Pantalla de 65”, Pizarrón de Cristal, Rotafolio, WIFI, Teléfono para hablar en Conferencia, Mesa de Cristal, Sillas Ejecutivas, Contadora de Billetes, Perchero y Persianas Black Out.</p>
 			          <p>Con opción de Coffee Break.</p>
 			      </td>
 		          <td>Imperial con capacidad para 8 personas sentadas.</td>
@@ -200,7 +200,7 @@ const Espacios = () => {
 		          <td>
 			          <p>Espacio ideal para tener una sesión de trabajo.</p>
 			          <p>Diferentes tipos de montajes.</p>
-			          <p>Cuenta con TV Pantalla de 65”, WIFI, Mesas, Sillas Ejecutivas, Perchero y Persianas Black Out. </p>
+			          <p>Cuenta con TV Pantalla de 65”, Pizarrón de Cristal, Rotafolio, WIFI, Mesas, Sillas Ejecutivas, Perchero y Persianas Black Out. </p>
 			          <p>Con opción de Coffee Break.</p>
 			      </td>
 		          <td>
@@ -252,7 +252,7 @@ const Espacios = () => {
 		        <tr>
 		          <td>
 			          <p>Espacio ideal para tener una capacitación.</p>
-			          <p>Cuenta con TV Pantalla de 65”, WIFI, Pupitres, Perchero y Persianas Black Out.</p>
+			          <p>Cuenta con TV Pantalla de 65”, Pizarrón de Cristal, Rotafolio, WIFI, Pupitres, Perchero y Persianas Black Out.</p>
 			          <p>Con opción de Coffee Break.</p>
 			      </td>
 		          <td>Auditorio con una capacidad de 10 pupitres.</td>
