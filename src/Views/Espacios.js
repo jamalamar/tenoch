@@ -6,7 +6,7 @@ const Espacios = () => {
   	<div className="pt-5 ">
     <div className="w-responsive mx-auto" >
       
-      <MDBCardBody style={{fontFamily: 'Noto Serif' }}>
+      <MDBCardBody>
 
       <h1 className="font-weight-bold text-center my-5">
           Conoce Nuestros Espacios
