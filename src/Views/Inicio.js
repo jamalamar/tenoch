@@ -92,7 +92,7 @@ function Inicio () {
 
           <hr className="my-5" />
           <MDBRow>
-          <MDBCol lg="5">
+          <MDBCol lg="4">
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
@@ -104,21 +104,21 @@ function Inicio () {
               </a>
             </MDBView>
           </MDBCol>
-          <MDBCol lg="7">
+          <MDBCol lg="8">
             <a href="#!" className="orange-text">
               <h6 className="font-weight-bold mb-3">
                 <MDBIcon icon="lightbulb" className="pr-2" />
                 Concepto
               </h6>
             </a>
-            <p className="h5-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+            <p className="h6-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
               <p className="font-weight-bolder" style={{display: 'inline', letterSpacing: '1px'}}>CASA TENOCH INN </p> 
               nació con la idea de crear un centro de negocios boutique
                que nos permitiera brindar atención personalizada y de gran calidad a 
                nuestros clientes bajo un concepto histórico que destacara las raíces 
                prehispánicas de nuestro país.
             </p>
-            <p className="h4-responsive text-justify font-weight-lighter" style={{letterSpacing: '1px'}}>
+            <p className="h6-responsive text-justify font-weight-lighter" style={{letterSpacing: '1px'}}>
               Así, debemos parte del nombre a la capital del Imperio Mexica, La Gran 
               Tenochtitlan, fundada por nuestros antepasados nahuas hace más de 600 años.  
               Por su parte la palabra <p className="font-weight-bolder" style={{display: 'inline', letterSpacing: '1px'}}>“INN” </p>
@@ -174,7 +174,7 @@ function Inicio () {
         </MDBRow>
         <hr className="my-5" />
         <MDBRow>
-          <MDBCol lg="5">
+          <MDBCol lg="3">
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
@@ -186,7 +186,7 @@ function Inicio () {
               </a>
             </MDBView>
           </MDBCol>
-          <MDBCol lg="7">
+          <MDBCol lg="9">
             <a href="#!" className="orange-text">
               <h6 className="font-weight-bold mb-3">
                 <MDBIcon icon="coffee" className="pr-2" />
@@ -200,13 +200,45 @@ function Inicio () {
               planes de “coffee break” cuyas denominaciones hacen referencia a la 
               organización política, económica, social y cultural de la época.
             </p>
-            <p className="h5-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+          </MDBCol>
+        </MDBRow>
+        <hr className="my-5" />
+        <MDBRow>
+          <MDBCol lg="7">
+            <a href="#!" className="orange-text">
+              <h6 className="font-weight-bold mb-3">
+                <MDBIcon icon="wine-glass-alt" className="pr-2" />
+                Sociales
+              </h6>
+            </a>
+            <p className="h4-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
               Búsquenos en <a href="https://instagram.com/casa_tenoch/" target="__blank" className="font-weight-bolder orange-text" style={{display: 'inline', letterSpacing: '1px'}}>Instagram<MDBIcon icon="link" size='xs'/> </a>
               en donde podrá visualizar nuestras instalaciones y enterarse 
               de los exclusivos eventos de Cata, Piano & Business en los que CASA TENOCH INN 
               fusiona la oportunidad de realizar actividades de networking a gran nivel con 
               la cautivadora experiencia de acudir a una selecta cata amenizada con música de piano. 
             </p>
+            <MDBBtn
+              color="orange"
+              size="md"
+              className="mb-lg-0 mb-4 waves-light"
+              href="https://instagram.com/casa_tenoch/"
+              target='__blank'
+            >
+              Ir
+            </MDBBtn>
+          </MDBCol>
+          <MDBCol lg="5">
+            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+              <img
+                className="img-fluid"
+                src="../Assets/Piano.jpg"
+                alt="https://instagram.com/casa_tenoch/"
+              />
+              <a href="https://instagram.com/casa_tenoch/">
+                <MDBMask overlay="white-slight" />
+              </a>
+            </MDBView>
           </MDBCol>
         </MDBRow>
         <hr className="my-5" />
