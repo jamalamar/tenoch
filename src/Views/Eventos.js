@@ -8,11 +8,8 @@ const Eventos = () => {
         <h1 className="font-weight-bold text-center my-5 pt-5">
           Eventos Especiales
         </h1>
-        <p className="text-center w-responsive mx-auto mb-5">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.
+        <p className="h3-responsive text-center w-responsive mx-auto mb-5">
+          CASA TENOCH INN se adapta a las necesidades de tu evento, ya sea empresarial o social.
         </p>
 
         <MDBRow className="pt-5 pb-5">        
@@ -35,8 +32,9 @@ const Eventos = () => {
               <strong>Conferencias & Reuniones</strong>
             </h4>
             <p className="dark-grey-text">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione.
+              Contamos con espacios ideales para realizar juntas de negocios, 
+              conferencias y capacitaciones, las cuales pueden incluir servicio 
+              de Coffee Break en una amplia variedad de opciones.
             </p>
             <MDBBtn color="info" rounded size="md">
               Ver Más
@@ -93,8 +91,8 @@ const Eventos = () => {
             </h4>
             
             <p className="dark-grey-text">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione.
+              Contamos con espacios ideales para realizar catas, 
+              cocteles y eventos recreativos.
             </p>
             <MDBBtn color="pink" rounded size="md">
               Ver Más

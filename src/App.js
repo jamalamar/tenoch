@@ -27,7 +27,7 @@ function App() {
 
   return (
     <Router>
-      <div>
+      <div style={{fontFamily: 'Montserrat'}}>
 
         <NavBar/>
 

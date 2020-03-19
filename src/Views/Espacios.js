@@ -55,7 +55,7 @@ const Espacios = () => {
 		          <td>
 			          <p>Espacio ideal para tener una sesión de trabajo.</p>
 			          <p>Diferentes tipos de montajes.</p>
-			          <p>Cuanta con TV Pantalla de 65”, WIFI, aire acondicionado, mesas, sillas ejecutivas, perchero y persianas black out.</p>
+			          <p>Cuenta con TV Pantalla de 65”, WIFI, aire acondicionado, mesas, sillas ejecutivas, perchero y persianas black out.</p>
 		          </td>
 		          <td>
 		          	<p>Imperial con capacidad para 20 personas sentadas.</p>
@@ -107,7 +107,7 @@ const Espacios = () => {
 		        <tr>
 		          <td>
 			          <p>Espacio ideal para cerrar un negocio o tener una reunión de trabajo.</p>
-			          <p>Cuanta con TV Pantalla de 65”, WIFI, teléfono inalambrico, un Sofa y tres Sillones individuales, mesas laterales,  chimenea y persianas black out.</p>
+			          <p>Cuenta con TV Pantalla de 65”, WIFI, teléfono inalambrico, un Sofa y tres Sillones individuales, mesas laterales,  chimenea y persianas black out.</p>
 			      </td>
 		          <td>Sala con chimenea con capacidad para 6 personas sentadas.</td>
 		          <td>17 m2</td>
@@ -154,7 +154,7 @@ const Espacios = () => {
 		        <tr>
 		          <td>
 			          <p>Espacio ideal para tener una junta de trabajo.</p>
-			          <p>Cuanta con TV Pantalla de 65”, WIFI, teléfono para hablar en conferencia, mesa de cristal, sillas ejecutivas, Contadora de billetes, perchero y persianas black out.</p>
+			          <p>Cuenta con TV Pantalla de 65”, WIFI, teléfono para hablar en conferencia, mesa de cristal, sillas ejecutivas, Contadora de billetes, perchero y persianas black out.</p>
 			      </td>
 		          <td>Imperial con capacidad para 8 personas sentadas.</td>
 		          <td>11 m2</td>
@@ -202,7 +202,7 @@ const Espacios = () => {
 		          <td>
 			          <p>Espacio ideal para tener una sesión de trabajo.</p>
 			          <p>Diferentes tipos de montajes.</p>
-			          <p>Cuanta con TV Pantalla de 65”, WIFI, mesas, sillas ejecutivas, perchero y persianas black out.</p>
+			          <p>Cuenta con TV Pantalla de 65”, WIFI, mesas, sillas ejecutivas, perchero y persianas black out.</p>
 			      </td>
 		          <td>
 		          	<p>Imperial con capacidad para 8 personas sentadas.</p>
@@ -253,7 +253,7 @@ const Espacios = () => {
 		        <tr>
 		          <td>
 			          <p>Espacio ideal para tener una capacitación.</p>
-			          <p>Cuanta con TV Pantalla de 65”, WIFI, pupitres, perchero y persianas black out.</p>
+			          <p>Cuenta con TV Pantalla de 65”, WIFI, pupitres, perchero y persianas black out.</p>
 			      </td>
 		          <td>Auditorio con una capacidad de 10 pupitres.</td>
 		          <td>12 m2</td>

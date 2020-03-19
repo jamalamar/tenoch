@@ -34,7 +34,7 @@ render() {
           <MDBNavLink to="/">
             <h5 className="font-weight-normal black-text font-weight-bold">
               Tenoch
-              <span className='yellow-text font-weight-bold'>INN</span>
+              <span className='grey-text font-weight-bold'>INN</span>
             </h5>
           </MDBNavLink>
         </MDBNavbarBrand>
@@ -81,14 +81,14 @@ render() {
           <MDBNavbarNav right>
             <MDBNavItem>
               <a href="https://instagram.com/casa_tenoch/" target="__blank">
-                <MDBNavLink disabled className="waves-effect waves-light" to='#'>
+                <MDBNavLink disabled className="waves-effect waves-light orange-text" to='#'>
                   <MDBIcon fab icon="instagram" size="2x"/>
                 </MDBNavLink>
               </a>
             </MDBNavItem>
             <MDBNavItem>
-              <a href="https://fb.me/SaintsHardSeltzer" target="__blank">
-                <MDBNavLink disabled className="waves-effect waves-dark" to="#">
+              <a href="https://facebook.com" target="__blank">
+                <MDBNavLink disabled className="waves-effect waves-dark blue-text" to="#">
                   <MDBIcon fab icon="facebook" size="2x"/>
                 </MDBNavLink>
               </a>

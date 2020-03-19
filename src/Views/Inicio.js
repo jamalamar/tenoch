@@ -31,7 +31,7 @@ function Inicio () {
         showControls={true}
         showIndicators={false}
         className="z-depth-1"
-        interval={3000}
+        interval={100000}
         slide
       >
         <MDBCarouselInner>
@@ -39,14 +39,12 @@ function Inicio () {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="../Assets/Carousel/teotihuacan.jpg"
+                src="../Assets/Carousel/teoti.jpg"
                 alt="First slide"
               />
               <MDBMask className="flex-center" overlay="white-slight">
-                <MDBCol md='4' className='mb-4 text-center responsive'>
-                  <h1 className='display-3 z-depth-3 black-text warning-color font-weight-bold mr-5'>CASA</h1>
-                  <h1 className='display-3 z-depth-3 black-text warning-color font-weight-bold ml-5'>TENOCH</h1>
-                  <h1 className='display-3 z-depth-3 black-text warning-color font-weight-bold mr-5'>INN</h1>
+                <MDBCol md='8' className='mb-4 text-center responsive'>
+                  <h1 className='display-3 z-depth-3 white-text rgba-black-light font-weight-bold m-5' style={{letterSpacing: '12px'}}>CASA TENOCH</h1>
                 </MDBCol>
               </MDBMask>
             </MDBView>
@@ -113,14 +111,14 @@ function Inicio () {
                 Concepto
               </h6>
             </a>
-            <p className="h4 text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+            <p className="h5-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
               <p className="font-weight-bolder" style={{display: 'inline', letterSpacing: '1px'}}>CASA TENOCH INN </p> 
               nació con la idea de crear un centro de negocios boutique
                que nos permitiera brindar atención personalizada y de gran calidad a 
                nuestros clientes bajo un concepto histórico que destacara las raíces 
                prehispánicas de nuestro país.
             </p>
-            <p className="h4 text-justify font-weight-lighter" style={{letterSpacing: '1px'}}>
+            <p className="h4-responsive text-justify font-weight-lighter" style={{letterSpacing: '1px'}}>
               Así, debemos parte del nombre a la capital del Imperio Mexica, La Gran 
               Tenochtitlan, fundada por nuestros antepasados nahuas hace más de 600 años.  
               Por su parte la palabra <p className="font-weight-bolder" style={{display: 'inline', letterSpacing: '1px'}}>“INN” </p>
@@ -141,7 +139,7 @@ function Inicio () {
                 Diseño
               </h6>
             </a>
-            <p className="h4 text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+            <p className="h5-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
               Nuestros espacios poseen un diseño ecléctico que combina la arquitectura de 
               una casona de los años 30s con un diseño vanguardista y funcional en donde 
               es posible encontrar salas de juntas y capacitación con diferentes escenarios 
@@ -195,19 +193,19 @@ function Inicio () {
                 Descubre
               </h6>
             </a>
-            <p className="h4 text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+            <p className="h5-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
               Podemos encontrar el concepto precolombino en cada una de nuestras salas y 
               salones que llevan nombres de diferentes zonas arqueológicas que han sido 
               halladas a lo largo del territorio nacional, así como en cada uno de nuestros 
               planes de “coffee break” cuyas denominaciones hacen referencia a la 
               organización política, económica, social y cultural de la época.
             </p>
-            <p className="h4 text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+            <p className="h5-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
               Búsquenos en <a href="https://instagram.com/casa_tenoch/" target="__blank" className="font-weight-bolder orange-text" style={{display: 'inline', letterSpacing: '1px'}}>Instagram<MDBIcon icon="link" size='xs'/> </a>
               en donde podrá visualizar nuestras instalaciones y enterarse 
               de los exclusivos eventos de Cata, Piano & Business en los que CASA TENOCH INN 
               fusiona la oportunidad de realizar actividades de networking a gran nivel con 
-              sla cautivadora experiencia de acudir a una selecta cata amenizada con música de piano. 
+              la cautivadora experiencia de acudir a una selecta cata amenizada con música de piano. 
             </p>
           </MDBCol>
         </MDBRow>
