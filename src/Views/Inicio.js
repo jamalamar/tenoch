@@ -139,7 +139,7 @@ function Inicio () {
                 Diseño
               </h6>
             </a>
-            <p className="h5-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
+            <p className="h6-responsive text-justify font-weight-lighter mb-4" style={{letterSpacing: '1px'}}>
               Nuestros espacios poseen un diseño ecléctico que combina la arquitectura de 
               una casona de los años 30s con un diseño vanguardista y funcional en donde 
               es posible encontrar salas de juntas y capacitación con diferentes escenarios 

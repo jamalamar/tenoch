@@ -11,12 +11,7 @@ const Espacios = () => {
       <h1 className="font-weight-bold text-center my-5">
           Conoce Nuestros Espacios
         </h1>
-        <p className="text-center w-responsive mx-auto mb-5">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.
-        </p>
+        
 
         <hr className="mb-5 mt-5" />
 
@@ -34,7 +29,7 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
+            <MDBCard className='w-responsive mx-auto rgba-black-strong white-text' style={{'marginTop': '-1.5rem', letterSpacing: '12px'}}>
               <MDBCardBody className="text-center">
                 <h4 className="h2-responsive">
                   SALÓN TEOTIHUACÁN
@@ -55,7 +50,8 @@ const Espacios = () => {
 		          <td>
 			          <p>Espacio ideal para tener una sesión de trabajo.</p>
 			          <p>Diferentes tipos de montajes.</p>
-			          <p>Cuenta con TV Pantalla de 65”, WIFI, aire acondicionado, mesas, sillas ejecutivas, perchero y persianas black out.</p>
+			          <p>Cuenta con TV Pantalla de 75”, WIFI, Aire Acondicionado, Mesas, Sillas Ejecutivas, Perchero y Persianas Black Out.</p>
+			          <p>Con opción de Coffee Break.</p>
 		          </td>
 		          <td>
 		          	<p>Imperial con capacidad para 20 personas sentadas.</p>
@@ -63,7 +59,7 @@ const Espacios = () => {
 		          	<p>Auditorio con capacidad para 20 (pupitres) personas sentadas.</p>
 		          	<p>Auditorio con capacidad para 35 (sillas) personas sentadas.</p>
 		          </td>
-		          <td>34 m2</td>
+		          <td className="text-right">34 m2</td>
 		        </tr>
 		      </MDBTableBody>
 		    </MDBTable>
@@ -87,7 +83,7 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5 w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto rgba-black-strong white-text' style={{'marginTop': '-1.5rem', letterSpacing: '12px'}}>
               <MDBCardBody className="text-center">
                 <h4 className="font-weight-bold h2-responsive">
                   SALÓN CHICHEN ITZÁ
@@ -107,10 +103,11 @@ const Espacios = () => {
 		        <tr>
 		          <td>
 			          <p>Espacio ideal para cerrar un negocio o tener una reunión de trabajo.</p>
-			          <p>Cuenta con TV Pantalla de 65”, WIFI, teléfono inalambrico, un Sofa y tres Sillones individuales, mesas laterales,  chimenea y persianas black out.</p>
+			          <p>Cuenta con TV Pantalla de 65”, WIFI, Teléfono Inalámbrico, un Sofá y Tres Sillones Individuales, Mesas Laterales, Contadora de Billetes, Chimenea y Persianas Black Out.</p>
+			          <p>Con opción de Coffee Break.</p>
 			      </td>
 		          <td>Sala con chimenea con capacidad para 6 personas sentadas.</td>
-		          <td>17 m2</td>
+		          <td className="text-right">17 m2</td>
 		        </tr>
 		      </MDBTableBody>
 		    </MDBTable>
@@ -134,7 +131,7 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5 w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto rgba-black-strong white-text' style={{'marginTop': '-1.5rem', letterSpacing: '12px'}}>
               <MDBCardBody className="text-center">
                 <h4 className="font-weight-bold h2-responsive">
                   SALA COBÁ
@@ -154,10 +151,11 @@ const Espacios = () => {
 		        <tr>
 		          <td>
 			          <p>Espacio ideal para tener una junta de trabajo.</p>
-			          <p>Cuenta con TV Pantalla de 65”, WIFI, teléfono para hablar en conferencia, mesa de cristal, sillas ejecutivas, Contadora de billetes, perchero y persianas black out.</p>
+			          <p>Cuenta con TV Pantalla de 65”, WIFI, Teléfono para hablar en Conferencia, Mesa de Cristal, Sillas Ejecutivas, Contadora de Billetes, Perchero y Persianas Black Out.</p>
+			          <p>Con opción de Coffee Break.</p>
 			      </td>
 		          <td>Imperial con capacidad para 8 personas sentadas.</td>
-		          <td>11 m2</td>
+		          <td className="text-right">11 m2</td>
 		        </tr>
 		      </MDBTableBody>
 		    </MDBTable>
@@ -181,7 +179,7 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5 w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto rgba-black-strong white-text' style={{'marginTop': '-1.5rem', letterSpacing: '12px'}}>
               <MDBCardBody className="text-center">
                 <h4 className="font-weight-bold h2-responsive">
                   SALA MONTE ALBÁN
@@ -202,14 +200,15 @@ const Espacios = () => {
 		          <td>
 			          <p>Espacio ideal para tener una sesión de trabajo.</p>
 			          <p>Diferentes tipos de montajes.</p>
-			          <p>Cuenta con TV Pantalla de 65”, WIFI, mesas, sillas ejecutivas, perchero y persianas black out.</p>
+			          <p>Cuenta con TV Pantalla de 65”, WIFI, Mesas, Sillas Ejecutivas, Perchero y Persianas Black Out. </p>
+			          <p>Con opción de Coffee Break.</p>
 			      </td>
 		          <td>
 		          	<p>Imperial con capacidad para 8 personas sentadas.</p>
 		          	<p>Herradura con capacidad para 6 personas sentadas.</p>
 		          	<p>Auditorio con capacidad para 12 personas sentadas.</p>
 		          </td>
-		          <td>12 m2</td>
+		          <td className="text-right">12 m2</td>
 		        </tr>
 		      </MDBTableBody>
 		    </MDBTable>
@@ -233,7 +232,7 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5 w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto rgba-black-strong white-text' style={{'marginTop': '-1.5rem', letterSpacing: '12px'}}>
               <MDBCardBody className="text-center">
                 <h4 className="font-weight-bold h2-responsive">
                   AULA BONAMPAK
@@ -253,10 +252,11 @@ const Espacios = () => {
 		        <tr>
 		          <td>
 			          <p>Espacio ideal para tener una capacitación.</p>
-			          <p>Cuenta con TV Pantalla de 65”, WIFI, pupitres, perchero y persianas black out.</p>
+			          <p>Cuenta con TV Pantalla de 65”, WIFI, Pupitres, Perchero y Persianas Black Out.</p>
+			          <p>Con opción de Coffee Break.</p>
 			      </td>
 		          <td>Auditorio con una capacidad de 10 pupitres.</td>
-		          <td>12 m2</td>
+		          <td className="text-right">12 m2</td>
 		        </tr>
 		      </MDBTableBody>
 		    </MDBTable>
@@ -280,7 +280,7 @@ const Espacios = () => {
               </MDBView>
             </MDBCard>
 
-            <MDBCard className='mx-5 w-responsive mx-auto rgba-orange-strong' style={{'marginTop': '-1.5rem'}}>
+            <MDBCard className='mx-5 w-responsive mx-auto rgba-black-strong white-text' style={{'marginTop': '-1.5rem', letterSpacing: '12px'}}>
               <MDBCardBody className="text-center">
                 <h4 className="font-weight-bold h2-responsive white-text">
                   TERRAZA TULÚM
@@ -298,9 +298,12 @@ const Espacios = () => {
 		      </MDBTableHead>
 		      <MDBTableBody>
 		        <tr>
-		          <td>Espacio al aire libre para evento social o actividad recreativa.</td>
+		          <td>
+		          	<p>Espacio al aire libre para evento social o actividad recreativa.</p>
+		          	<p>Con opción de Coffee Break.</p>
+		          </td>
 		          <td>Capacidad 15 personas.</td>
-		          <td>20 m2</td>
+		          <td className="text-right">20 m2</td>
 		        </tr>
 		      </MDBTableBody>
 		    </MDBTable>
