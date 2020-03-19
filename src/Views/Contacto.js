@@ -21,7 +21,7 @@ const Contacto = () => {
         <MDBCol lg="5" className="lg-0 mb-4 mt-5">
           <MDBCard>
             <MDBCardBody>
-              <div className="form-header blue accent-1 text-center p-3" style={{'marginTop': '-3rem'}}>
+              <div className="form-header orange text-center p-3" style={{'marginTop': '-3rem'}}>
                 <h3 className="mt-2 text-white">
                   <MDBIcon icon="fa fa-envelope" /> Escríbenos:
                 </h3>
@@ -76,7 +76,7 @@ const Contacto = () => {
                 />
               </div>
               <div className="text-center">
-                <MDBBtn color="light-blue" type="submit">Enviar</MDBBtn>
+                <MDBBtn color="orange" type="submit">Enviar</MDBBtn>
               </div>
             </form>
 
@@ -101,21 +101,21 @@ const Contacto = () => {
           <br />
           <MDBRow className="text-center">
             <MDBCol md="4">
-              <MDBBtn tag="a" floating color="blue" className="accent-1">
+              <MDBBtn tag="a" floating color="orange" className="accent-1">
                 <MDBIcon icon="map-marker-alt" />
               </MDBBtn>
               <p>Miguel Lerdo de Tejada # 17, Col. Guadalupe Inn, Alcaldía Álvaro Obregón, CP 01020, CDMX</p>
               <p className="mb-md-0"></p>
             </MDBCol>
             <MDBCol md="4">
-              <MDBBtn tag="a" floating color="blue" className="accent-1">
+              <MDBBtn tag="a" floating color="orange" className="accent-1">
                 <MDBIcon icon="phone" />
               </MDBBtn>
               <p>+ 5512240436</p>
               <p>+ 5562352033</p>
             </MDBCol>
             <MDBCol md="4">
-              <MDBBtn tag="a" floating color="blue" className="accent-1">
+              <MDBBtn tag="a" floating color="orange" className="accent-1">
                 <MDBIcon icon="envelope" />
               </MDBBtn>
               <p>ventas@casatenoch.com </p>

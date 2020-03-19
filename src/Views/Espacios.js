@@ -40,9 +40,9 @@ const Espacios = () => {
              <MDBTable small>
 		      <MDBTableHead>
 		        <tr>
-		          <th><h5>Descripción</h5></th>
-		          <th><h5>Formato</h5></th>
-		          <th><h5>Medidas</h5></th>
+		          <th><h5 className="orange-text">Descripción</h5></th>
+		          <th><h5 className="orange-text">Formato</h5></th>
+		          <th><h5 className="orange-text">Medidas</h5></th>
 		        </tr>
 		      </MDBTableHead>
 		      <MDBTableBody>
@@ -94,9 +94,9 @@ const Espacios = () => {
              <MDBTable small>
 		      <MDBTableHead>
 		        <tr>
-		          <th><h5>Descripción</h5></th>
-		          <th><h5>Formato</h5></th>
-		          <th><h5>Medidas</h5></th>
+		          <th><h5 className="orange-text">Descripción</h5></th>
+		          <th><h5 className="orange-text">Formato</h5></th>
+		          <th><h5 className="orange-text">Medidas</h5></th>
 		        </tr>
 		      </MDBTableHead>
 		      <MDBTableBody>
@@ -142,9 +142,9 @@ const Espacios = () => {
              <MDBTable small>
 		      <MDBTableHead>
 		        <tr>
-		          <th><h5>Descripción</h5></th>
-		          <th><h5>Formato</h5></th>
-		          <th><h5>Medidas</h5></th>
+		          <th><h5 className="orange-text">Descripción</h5></th>
+		          <th><h5 className="orange-text">Formato</h5></th>
+		          <th><h5 className="orange-text">Medidas</h5></th>
 		        </tr>
 		      </MDBTableHead>
 		      <MDBTableBody>
@@ -190,9 +190,9 @@ const Espacios = () => {
               <MDBTable small>
 		      <MDBTableHead>
 		        <tr>
-		          <th><h5>Descripción</h5></th>
-		          <th><h5>Formato</h5></th>
-		          <th><h5>Medidas</h5></th>
+		          <th><h5 className="orange-text">Descripción</h5></th>
+		          <th><h5 className="orange-text">Formato</h5></th>
+		          <th><h5 className="orange-text">Medidas</h5></th>
 		        </tr>
 		      </MDBTableHead>
 		      <MDBTableBody>
@@ -243,9 +243,9 @@ const Espacios = () => {
              <MDBTable small>
 		      <MDBTableHead>
 		        <tr>
-		          <th><h5>Descripción</h5></th>
-		          <th><h5>Formato</h5></th>
-		          <th><h5>Medidas</h5></th>
+		          <th><h5 className="orange-text">Descripción</h5></th>
+		          <th><h5 className="orange-text">Formato</h5></th>
+		          <th><h5 className="orange-text">Medidas</h5></th>
 		        </tr>
 		      </MDBTableHead>
 		      <MDBTableBody>
@@ -291,9 +291,9 @@ const Espacios = () => {
             <MDBTable small>
 		      <MDBTableHead>
 		        <tr>
-		          <th><h5>Descripción</h5></th>
-		          <th><h5>Formato</h5></th>
-		          <th><h5>Medidas</h5></th>
+		          <th><h5 className="orange-text">Descripción</h5></th>
+		          <th><h5 className="orange-text">Formato</h5></th>
+		          <th><h5 className="orange-text">Medidas</h5></th>
 		        </tr>
 		      </MDBTableHead>
 		      <MDBTableBody>

@@ -8,7 +8,7 @@ const Eventos = () => {
         <h1 className="font-weight-bold text-center my-5 pt-5">
           EVENTOS ESPECIALES
         </h1>
-        <p className="h3-responsive text-center w-responsive mx-auto mb-5">
+        <p className="h6-responsive text-center w-responsive mx-auto mb-5">
           CASA TENOCH INN se adapta a las necesidades de tu evento, ya sea empresarial o social.
         </p>
 
@@ -22,7 +22,7 @@ const Eventos = () => {
               />
               <MDBMask overlay="white-slight" />
             </MDBView>
-            <a href="#!" className="blue-text">
+            <a href="#!" className="orange-text">
               <h6 className="font-weight-bold mb-3">
                 <MDBIcon icon="building" className="pr-2" />
                 Empresariales
@@ -36,7 +36,7 @@ const Eventos = () => {
               conferencias y capacitaciones, las cuales pueden incluir servicio 
               de Coffee Break en una amplia variedad de opciones.
             </p>
-            <MDBBtn color="info" rounded size="md">
+            <MDBBtn color="orange" rounded size="md">
               Ver Más
             </MDBBtn>
           </MDBCol>
@@ -80,7 +80,7 @@ const Eventos = () => {
               />
               <MDBMask overlay="white-slight" />
             </MDBView>
-            <a href="#!" className="pink-text">
+            <a href="#!" className="orange-text">
               <h6 className="font-weight-bold mb-3">
                 <MDBIcon icon="users" className="pr-2" />
                 Sociales
@@ -94,7 +94,7 @@ const Eventos = () => {
               Contamos con espacios ideales para realizar catas, 
               cocteles y eventos recreativos.
             </p>
-            <MDBBtn color="pink" rounded size="md">
+            <MDBBtn color="orange" rounded size="md">
               Ver Más
             </MDBBtn>
           </MDBCol>
@@ -108,17 +108,17 @@ const Eventos = () => {
 
 	    <MDBRow>
 		  <MDBCol sm="4" className="mb-3">
-		  		<MDBIcon icon="wifi" size="2x" className="indigo-text"/>
+		  		<MDBIcon icon="wifi" size="2x" className="orange-text"/>
 		  		<h3>Wifi</h3>
 		  </MDBCol>
 
 		  <MDBCol sm="4" className="mb-3">  
-	            <MDBIcon icon="snowflake" size="2x" className="indigo-text"/>
+	            <MDBIcon icon="snowflake" size="2x" className="orange-text"/>
 	            <h3>Aire Acondicionado</h3>
 		  </MDBCol>
 
 		  <MDBCol sm="4" className="mb-3">
-	            <MDBIcon icon="hands-helping" size="2x" className="indigo-text"/>
+	            <MDBIcon icon="hands-helping" size="2x" className="orange-text"/>
 	            <h3>Asistencia</h3>
 		  </MDBCol>
 		</MDBRow>
