@@ -17,7 +17,7 @@ const Eventos = () => {
             <MDBView hover className="rounded z-depth-2 mb-4" waves>
               <img
                 className="img-fluid"
-                src="../Assets/empresariales.jpg"
+                src="../Assets/empre.jpg"
                 alt=""
               />
               <MDBMask overlay="white-slight" />

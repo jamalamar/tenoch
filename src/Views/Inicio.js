@@ -31,7 +31,7 @@ function Inicio () {
         showControls={true}
         showIndicators={false}
         className="z-depth-1"
-        interval={100000}
+        interval={4000}
         slide
       >
         <MDBCarouselInner>
@@ -58,10 +58,8 @@ function Inicio () {
                 alt="Second slide"
               />
               <MDBMask className="flex-center" overlay="white-slight">
-                <MDBCol md='4' className='mb-4 text-center responsive'>
-                  <h1 className='display-3 z-depth-3 white-text warning-color font-weight-bold mr-5'>CASA</h1>
-                  <h1 className='display-3 z-depth-3 white-text warning-color font-weight-bold ml-5'>TENOCH</h1>
-                  <h1 className='display-3 z-depth-3 white-text warning-color font-weight-bold mr-5'>INN</h1>
+                <MDBCol md='8' className='mb-4 text-center responsive'>
+                  <h1 className='display-3 z-depth-3 white-text rgba-black-light font-weight-bold m-5' style={{letterSpacing: '12px'}}>CASA TENOCH</h1>
                 </MDBCol>
               </MDBMask>
             </MDBView>
@@ -75,10 +73,8 @@ function Inicio () {
                 alt="Third slide"
               />
               <MDBMask className="flex-center" overlay="white-slight">
-                <MDBCol md='4' className='mb-4 text-center responsive'>
-                  <h1 className='display-3 z-depth-3 black-text warning-color font-weight-bold mr-5'>CASA</h1>
-                  <h1 className='display-3 z-depth-3 black-text warning-color font-weight-bold ml-5'>TENOCH</h1>
-                  <h1 className='display-3 z-depth-3 black-text warning-color font-weight-bold mr-5'>INN</h1>
+                <MDBCol md='8' className='mb-4 text-center responsive'>
+                  <h1 className='display-3 z-depth-3 white-text rgba-black-light font-weight-bold m-5' style={{letterSpacing: '12px'}}>CASA TENOCH</h1>
                 </MDBCol>
               </MDBMask>
             </MDBView>
