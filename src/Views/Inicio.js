@@ -27,11 +27,11 @@ function Inicio () {
       <div>
         <MDBCarousel
         activeItem={1}
-        length={3}
+        length={1}
         showControls={true}
         showIndicators={false}
         className="z-depth-1"
-        interval={4000}
+        interval={20000}
         slide
       >
         <MDBCarouselInner>
